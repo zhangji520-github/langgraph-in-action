@@ -1,6 +1,6 @@
 # LangGraph 实战
 
-本仓库包含交互式 Jupyter notebook，用于演示 LangGraph 概念和实现。
+本仓库包含交互式 Jupyter Notebook，用于演示 LangGraph 概念和实现。
 
 ## 关于本书
 
@@ -13,7 +13,13 @@
 - **完整的技术体系**: 从 Agent 基础概念到 LangGraph 框架的深入讲解
 - **丰富的实战案例**: 通过具体代码示例演示各种 Agent 应用场景
 - **渐进式学习路径**: 由浅入深的内容组织，适合不同基础的读者
-- **国内环境适配**: 使用 SiliconCloud 平台和国产大模型，便于国内开发者学习实践
+- **国内环境适配**: 使用硅基流动一站式大模型云服务平台 SiliconCloud 平台和国产大模型，依托开箱即用的大模型 API 服务，便于国内开发者学习实践
+
+### 📱 加入飞书群
+
+欢迎您扫描下方二维码加入我们的技术讨论群：
+
+![](https://raw.githubusercontent.com/webup/langgraph-up-react/main/static/feishu.jpg)
 
 ## 环境配置
 
@@ -72,7 +78,7 @@ cp .env.example .env
    .venv\Scripts\activate     # Windows
    ```
 
-2. 在 IDE 中打开任意教程 notebook（chapter2.ipynb、chapter4.ipynb 等）
+2. 在 IDE 中打开任意教程 notebook（`chapter2.ipynb`、`chapter3.ipynb`、`chapter4.ipynb` 等）
 
 3. 选择对应虚拟环境的 Python 内核
 
@@ -81,6 +87,7 @@ cp .env.example .env
 ## 可用教程
 
 - `chapter2.ipynb` - LangGraph 框架概览
+- `chapter3.ipynb` - LangGraph 核心元素和子图
 - `chapter4.ipynb` - AI 智能体的交互体验（流式处理、持久化、人机在环）
 - `chapter5.ipynb` - AI 智能体的记忆系统
 - `chapter6.ipynb` - 构建 AI 智能体的其它 API 选项
@@ -103,3 +110,7 @@ cp .env.example .env
 - **找不到内核**: 确保已激活 UV 虚拟环境并使用 `uv sync` 安装了依赖
 - **API 错误**: 检查 `.env` 文件中的 API 密钥设置是否正确
 - **导入错误**: 再次运行 `uv sync` 确保所有依赖都已安装
+
+## 参考图书
+
+![](https://raw.githubusercontent.com/webup/langgraph-up-react/main/static/langgraph-poster.jpg)
